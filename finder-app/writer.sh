@@ -25,7 +25,7 @@ if [ -d "$DIR" ]; then
     echo "Directory exits"
 else
     echo "Creating the directory $DIR"
-echo "$DIR"
+    echo "$DIR"
     mkdir -p "$DIR"
 fi
 
